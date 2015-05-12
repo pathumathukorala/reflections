@@ -1,1 +1,3 @@
-When would you want to use a remote repository rather than keeping all your work local?
+1. When would you want to use a remote repository rather than keeping all your work local?
+when it comes to larger/ distributed projects more than one person will be working on a codebase. Hence it would be ideal 
+to have the code repository available online since everybody can access it without less hastle.
