@@ -4,3 +4,10 @@ to have the code repository available online since everybody can access it witho
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 There might be users who are working with their own overrides of the codebase. then automatic syncing would cause data loss ambiguity to the user who is unaware of it. To overcome user surprises it is quite good to have the manual control over pull requesting.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks - are being used when you need to create a copy of a github repository of some other author in to your account for modification, preserving the backlinks. GitHub remembers the fork count of a given repositoy.
+
+clones - clones can be used to create a local copy of a git repository which is either in gitHub or another location.
+
+branches - branches are used to create deviations from the local repository in order to facilitate different perspectives (new features, bug fixes etc.) of the same repository. This allows the users to freely work on their deviation, without compromizing the quality of the master.
