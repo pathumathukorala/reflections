@@ -5,3 +5,6 @@ How is the staging area different from the working directory and the repository?
 staging area is the placeholder for keep logical chunks of the code you wish to push as a single block to the repository. working directory holds all the changes/ files which can or cannot grouped into logical blocks. Repository is the placeholder to keep the logical blocks together with the version information.
 Staging area helps to group logical blocks of code into single commit, eventhough there might be plenty of changes in the working directory.
 
+How can you use the staging area to make sure you have one commit per logical change?
+In order to do that you need to pick the changes which can be grouped as logical chunk and add them to the staging area and commit. That way, you will be able to seperate the logical changes.
+
