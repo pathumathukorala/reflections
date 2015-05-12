@@ -13,3 +13,6 @@ branches help in keeping the things organized as it allows the developers to exp
 
 How do the diagrams help you visualize the branch structure?
 Diagrams show the master branch as well as the other branches. And it shows the navigations/ reachability of given branches and lost nodes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two branches will help to contain changes done in both of them in together. Changes occured in both the branches are now in one place, and the tip of the branch is now have the reachability to both the branches. Therefore the notation is correct.
