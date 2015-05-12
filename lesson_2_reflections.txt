@@ -1,18 +1,26 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
 When initializing, git adds metadata with regard to the files by creating an empty repository.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area is the placeholder for keep logical chunks of the code you wish to push as a single block to the repository. working directory holds all the changes/ files which can or cannot grouped into logical blocks. Repository is the placeholder to keep the logical blocks together with the version information.
 Staging area helps to group logical blocks of code into single commit, eventhough there might be plenty of changes in the working directory.
 
-How can you use the staging area to make sure you have one commit per logical change?
+3. How can you use the staging area to make sure you have one commit per logical change?
 In order to do that you need to pick the changes which can be grouped as logical chunk and add them to the staging area and commit. That way, you will be able to seperate the logical changes.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 branches help in keeping the things organized as it allows the developers to experiment with the code without touching/ breaking the master branch. It allows the users to do research.
 
-How do the diagrams help you visualize the branch structure?
+5. How do the diagrams help you visualize the branch structure?
 Diagrams show the master branch as well as the other branches. And it shows the navigations/ reachability of given branches and lost nodes.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 merging two branches will help to contain changes done in both of them in together. Changes occured in both the branches are now in one place, and the tip of the branch is now have the reachability to both the branches. Therefore the notation is correct.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging
+pros: easy, accurate, fast
+cons: none.
+manual merging
+pros: allow the users to collaborate and review the work, knowledge sharing
+cons: added overhead when it comes to agile/ distributed teams
