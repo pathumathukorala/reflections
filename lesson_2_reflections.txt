@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+When initializing, git adds metadata with regard to the files by creating an empty repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area is the placeholder for keep logical chunks of the code you wish to push as a single block to the repository. working directory holds all the changes/ files which can or cannot grouped into logical blocks. Repository is the placeholder to keep the logical blocks together with the version information.
+Staging area helps to group logical blocks of code into single commit, eventhough there might be plenty of changes in the working directory.
+
