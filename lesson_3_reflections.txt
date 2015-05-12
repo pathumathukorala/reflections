@@ -1,3 +1,6 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
 when it comes to larger/ distributed projects more than one person will be working on a codebase. Hence it would be ideal 
 to have the code repository available online since everybody can access it without less hastle.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+There might be users who are working with their own overrides of the codebase. then automatic syncing would cause data loss ambiguity to the user who is unaware of it. To overcome user surprises it is quite good to have the manual control over pull requesting.
