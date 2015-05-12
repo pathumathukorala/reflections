@@ -10,3 +10,6 @@ In order to do that you need to pick the changes which can be grouped as logical
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 branches help in keeping the things organized as it allows the developers to experiment with the code without touching/ breaking the master branch. It allows the users to do research.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams show the master branch as well as the other branches. And it shows the navigations/ reachability of given branches and lost nodes.
