@@ -18,3 +18,7 @@ by having so, the person could be able to work even offline with the understandi
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Then we need to perform a manual code review/ peer review.
 It's easier when it comes to time constraints & if the dev team is not geographically distributed. But when it comes to different timezones & availability, it is always hard to perform manual code/ peer reviews.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A refactoring in a critical area of the code, which might jeopardize the quality of master, we use a seperate branch. This has the benifit of asking another contributor to review the code for you in that perticular branch before merging it with the master via pull request.
+On the other hand, if it is less critical & ok to go along with the master, then it reduces the users' overhead of merging & conflict resolving manually.
