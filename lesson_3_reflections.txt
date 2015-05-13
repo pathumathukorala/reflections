@@ -14,3 +14,7 @@ branches - branches are used to create deviations from the local repository in o
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 by having so, the person could be able to work even offline with the understanding of what is there in the remote for a given timeframe.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Then we need to perform a manual code review/ peer review.
+It's easier when it comes to time constraints & if the dev team is not geographically distributed. But when it comes to different timezones & availability, it is always hard to perform manual code/ peer reviews.
